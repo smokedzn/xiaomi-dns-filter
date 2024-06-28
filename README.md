@@ -1,4 +1,4 @@
-# Xiaomi DNS Blocklist
+# Xiaomi DNS Blocklist/Whitelist
 
 In this repository you'll get updated blocklists and allowlists to minimize the collected data via DNS-Filtering (Tracking, Bloatware, (Personalized) Ads, Telemetry etc. and Allowlists for certain Apps or Firmware-Updates) on Xiaomi devices, including Redmi and POCO.
 
