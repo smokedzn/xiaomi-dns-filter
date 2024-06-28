@@ -21,23 +21,27 @@ or
 
 # Lists
 
-## `xiaomi_dns_block.lst`
+## `xiaomi_pihole_block.lst`
 
-Manually collected DNS entries from Xiaomi with the help of the community.
+Manually collected DNS entries, in _combination_ with parts of the following Blocklists: 
+- __[HaGeZi's - Multi PRO++ Blocklist](https://github.com/hagezi/dns-blocklists#proplus)__
+- __[unknownFalleN's Xiaomi DNS Blocklist](https://github.com/unknownFalleN/xiaomi-dns-blocklist)__
 
-## `xiaomi_dns_whitelist.lst`
+## `xiaomi_pihole_allow.lst`
 
-Manually collected DNS Whitelist entries from Xiaomi with the help of the community to improve compability. 
+Self-tested collected DNS Whitelist entries to improve compability. 
 
 ## `Xiaomi_NextDNS.txt`
+### Consider using [HaGeZi's - Multi PRO++](https://github.com/hagezi/dns-blocklists#proplus) and [unknownFalleN's Xiaomi DNS Blocklist](https://github.com/unknownFalleN/xiaomi-dns-blocklist) in combination with my Denylist/Allowlist instead of adding only all manual picked domains. For more information, [take a look](https://github.com/smokedzn/xiaomi-dns-blocklist/blob/master/Xiaomi_NextDNS.txt) at the Denylist.
+Manually collected DNS entries, in _combination_ with parts of the following Blocklists: 
+- __[HaGeZi's - Multi PRO++ Blocklist](https://github.com/hagezi/dns-blocklists#proplus)__
+- __[unknownFalleN's Xiaomi DNS Blocklist](https://github.com/unknownFalleN/xiaomi-dns-blocklist)__
 
-Manually collected DNS entries for NextDNS (Allowlist and Denylist) 
+# Whitelist (Semi-Outdated)
 
-# Whitelist
+A collection of domains for the whitelist. These should be set manually as needed in NextDNS or PiHole. You can also just import the list `xiaomi_pihole_allow.lst` **(PiHole only)**
 
-A collection of domains for the whitelist. These should be set manually as needed in NextDNS or PiHole. You can also just import the list `xiaomi_dns_whitelist.lst` **(PiHole only)**
-
-## Xiaomi account management
+## Xiaomi account management 
 
 ```html
 account.xiaomi.com
@@ -71,9 +75,10 @@ mcc.intl.inf.miui.com
 cdn.awsde0-fusion.fds.api.mi-img.com
 ```
 
-# Built With
+# Special thanks to:
 
-- With much love and manual collection of the DNS entries  ;)
+- [unknownFalleN](https://github.com/unknownFalleN)
+- [HaGeZi](https://github.com/hagezi/)
 
 # Authors
 
