@@ -1,4 +1,6 @@
 // Denylist
-(Will get added soon)
+sdkconfig.ad.india.xiaomi.com
+fr.resolver.msg.global.xiaomi.net
+api.g.micloud.xiaomi.net
 // ALlowlist
 (Will get added soon)
