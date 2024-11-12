@@ -3,6 +3,9 @@
 In this repository you'll get updated blocklists and allowlists to minimize the collected data via DNS-Filtering (Tracking, Bloatware, (Personalized) Ads, Telemetry etc. and Allowlists for certain Apps or Firmware-Updates) on Xiaomi devices, including Redmi and POCO.
 
 # Getting Started 
+**Important (as of 2024-11-12)**
+
+**This List currently isn't being actievly monitored, nor actievly edited. If you see new DNS-Queries which might be related to Xiaomi, please start using an updated Blocklist or contribute by adding entries via PR.**
 ## PiHole
 
 Simply add the raw list(s) in PiHole Settings/Blocklists and click save and update.
