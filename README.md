@@ -16,9 +16,15 @@ Add the Native Tracking Protection Blocklist for Xiaomi under the Privacy Tab.
 Add the Domains, listed under "Denylist" and "Allowlist" from [xiaomi-dns-blocklist/Xiaomi_NextDNS.txt](https://github.com/smokedzn/xiaomi-dns-blocklist/blob/master/Xiaomi_NextDNS.txt)
 
 # Prerequisites
-[NextDNS Setup](https://my.nextdns.io)
+Cloud Solutions:
 
-or
+[NextDNS Setup](https://my.nextdns.io) **(Currently Recommended)**
+
+[ControlD Setup](https://controld.com/dashboard) **(Missing List)**
+
+[AdGuard DNS Setup](https://adguard-dns.io/en/dashboard/) **(Missing List)**
+
+Local-Network Solutions (Recommended):
 
 [PiHole Installation](https://docs.pi-hole.net/main/basic-install/)
 
